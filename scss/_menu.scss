@@ -14,7 +14,7 @@
         width:28px;
         height:3px;
         margin:0 0 5px 0;
-        background:#fff;
+        background:set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -52,7 +52,7 @@
     &-branding,&-nav{
          display: flex;
          flex-flow: column wrap;
-         align:center;
+         //align-items:center;
          justify-content:center;
          float:left;
          width:50%;
@@ -86,20 +86,28 @@
         .potrait{
             width: 250px;
             height:250px;
-            background:url('../img/bg.jpg');
+            background:url('../img/brand1.jpg');
             border-radius:50%;
             border:solid 3px $secondary-color;
+            transform:translate3d(200px,0,0);
+            @include easeOut;
+    
+            &.show{
+                //slide in from right
+                transform: translate3d(0,0,0);
+            }
         }
     }
 
     .nav-item{
-        transform:translate3d(400px,0,0);
-        @include easeOut;
+     transform: translate3d(100px,0,0);
+     @include easeOut;
 
-        &.show{
-            //slide in from right
-            transform: translate3d(0,0,0);
-        }
+     &.show{
+         transform: translate3d(0,0,0);
+     }
+    
+     
         &.current > a{
             color: $secondary-color;
         }
@@ -111,7 +119,7 @@
         text-transform:uppercase;
         padding:1rem 0;
         font-weight: 300;
-        color:#fff;
+        color:set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
     }
