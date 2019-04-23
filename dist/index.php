@@ -1,20 +1,23 @@
+
+<?php
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-     crossorigin="anonymous">
+    <title>Donate Blood Save Life</title>
+    <link rel="icon" href="img/brand1.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
       <!--Import Google Icon Font-->
      
       <!--Import materialize.css-->
      
    
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/register.css">
     
 </head>
 <body id="bg-img">
@@ -47,64 +50,39 @@
 
                   </div>
                   <ul class="menu-nav">
-                      <li class="nav-item">
-                          <a href="index.html" class="nav-link"><i class="fas fa-home"></i>Home</a>
+                      <li class="nav-item current">
+                          <a href="index.php" class="nav-link"><i class="fas fa-home"></i>Home</a>
                       </li>
                       <li class="nav-item">
                         
-                            <a href="register.html" class="nav-link"><i class="fas fa-user-edit"></i>Register</a>
+                            <a href="register.php" class="nav-link"><i class="fas fa-user-edit"></i>Register</a>
                         </li>
-                        <li class="nav-item current">
+                        <li class="nav-item">
                             <!--modal trigger-->
-                                <a href="login.html" class="nav-link"><i class="fas fa-user-circle"></i>Login</a>
+                                <a href="login.php" class="nav-link"><i class="far fa-user"></i>Login</a>
                             </li>
                             <li class="nav-item">
-                                    <a href="/findDoner.html" class="nav-link"><i class="fas fa-hand-holding-heart"></i>Find Donor</a>
+                                    <a href="adminlogin.php" class="nav-link"><i class="fas fa-hand-holding-heart"></i>Admin Login</a>
                                 </li>
-                                <li class="nav-item">
-                                        <a href="/refer.html" class="nav-link"><i class="fas fa-user-friends"></i>Refer Friends</a>
-                                    </li>
+                              
 
                   </ul>
               </nav>
           </header>
 
 
-          <main id="register">
+          <main id="home">
               <h1 class="lg-heading">
-                <span class="text-secondary">Login</span> As a Donor
+                <span class="text-secondary">Donate</span> Blood
               </h1>
               <h2 class="sm-heading">
                   Save Life
               </h2>
+             
 
-              <form action="#" method="post">
-                    <div class="register-box">
-                 
-                            <div class="textbox">
-                                  <i class="fas fa-user-circle"></i>
-                                <input type="text" placeholder="Username" name="" value="" required>
-                            </div>
-          
-                            <div class="textbox">
-                                  <i class="fas fa-lock"></i>
-                                  <input type="password" placeholder="Password" name="" value="" required>
-                              </div>
-          
-                              <input type="button" class="btn" name="login" value="login">
-                        </div>
-                       
-          
-          
-          
-              </form>
+
+
           </main>
-
-          <footer id="main-footer">
-
-         
-
-          </footer>
 
 
           <script src="js/main.js"></script>

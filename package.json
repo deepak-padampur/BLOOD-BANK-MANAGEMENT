@@ -9,6 +9,7 @@
   "author": "ALSYD",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "sweetalert": "^2.1.2"
   }
 }
