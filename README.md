@@ -26,3 +26,4 @@ THIS IS ONGOING PROJECT.
 ![FIND DONOR](https://user-images.githubusercontent.com/48153639/56755791-efb30200-67ad-11e9-9789-d32410f3d313.png)
 ## 6.You can refer a friend through email incase you are not available
 ![REFER A FRIEND IN CASE OF ABSENCE](https://user-images.githubusercontent.com/48153639/56755822-00637800-67ae-11e9-8837-105683ea9de1.png)
+## 7.recover password through email
