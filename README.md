@@ -15,5 +15,7 @@ THIS IS ONGOING PROJECT.
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/48153639/56755226-a31af700-67ac-11e9-8615-bffa584f12ee.png)
 
+## 4.past donation history
 
+![PAST DONATION HISTORY](https://user-images.githubusercontent.com/48153639/56755595-7d422200-67ad-11e9-9529-077c98c958a9.png)
 
