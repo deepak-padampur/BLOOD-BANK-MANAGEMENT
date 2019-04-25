@@ -12,3 +12,5 @@ THIS IS ONGOING PROJECT.
 ### 3.upload health certificate and get approval from admin
 
 ![UPLOAD HEALTH CERTIFICATE](https://user-images.githubusercontent.com/48153639/56753434-2c7bfa80-67a8-11e9-8d27-99e9033b8023.png)
+
+![CONGRATULATION NOTIFICATION ON APPROVAL](https://user-images.githubusercontent.com/48153639/56753830-115dba80-67a9-11e9-8ffe-6501b920f6ae.png)
