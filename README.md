@@ -9,3 +9,6 @@ THIS IS ONGOING PROJECT.
 ### 2.Login to User Dashboard after successful registration
 ![USER LOGIN](https://user-images.githubusercontent.com/48153639/56753161-95af3e00-67a7-11e9-9463-ee0ee07820b2.png)
 ![USER PROFILE](https://user-images.githubusercontent.com/48153639/56753176-a19b0000-67a7-11e9-97e9-d8fb3a8f8fff.png)
+### 3.upload health certificate and get approval from admin
+
+![UPLOAD HEALTH CERTIFICATE](https://user-images.githubusercontent.com/48153639/56753434-2c7bfa80-67a8-11e9-8d27-99e9033b8023.png)
