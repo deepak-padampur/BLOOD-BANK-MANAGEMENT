@@ -27,3 +27,15 @@ THIS IS ONGOING PROJECT.
 ## 6.You can refer a friend through email incase you are not available
 ![REFER A FRIEND IN CASE OF ABSENCE](https://user-images.githubusercontent.com/48153639/56755822-00637800-67ae-11e9-8837-105683ea9de1.png)
 ## 7.recover password through email
+
+
+### INSTRUCTION:
+1.Here we send referal to anyone using PHPMAILER function through SMTP server in localhost.So find make the required changes in the 'sendmail' file in xampp folder.
+path:  C:\xampp\sendmail\sendmail.ini
+###### changes in 'sendmail.ini' file
+1.smtp_server=smtp.gmail.com
+2.for(TLS):smtp_port=587
+for(SSL):smtp_port=425
+3.auth_username='The email-id you want to host mail from'
+auth_password='your password of above email-id'
+###### 4.important don't forget to make the security low of your gmail accout.
