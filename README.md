@@ -39,3 +39,6 @@ for(SSL):smtp_port=425<br>
 3.auth_username='The email-id you want to host mail from'<br>
 auth_password='your password of above email-id'<br>
 ###### 4.important: don't forget to make the security low of your gmail account.
+https://myaccount.google.com/security:<br>
+switch 'on' the 
+#### less secure app access
