@@ -33,9 +33,9 @@ THIS IS ONGOING PROJECT.
 1.Here we send referal to anyone using PHPMAILER function through SMTP server in localhost.So find make the required changes in the 'sendmail' file in xampp folder.
 path:  C:\xampp\sendmail\sendmail.ini
 ###### changes in 'sendmail.ini' file
-1.smtp_server=smtp.gmail.com
-2.for(TLS):smtp_port=587
-for(SSL):smtp_port=425
-3.auth_username='The email-id you want to host mail from'
-auth_password='your password of above email-id'
-###### 4.important don't forget to make the security low of your gmail accout.
+1.smtp_server=smtp.gmail.com<br>
+2.for(TLS):smtp_port=587<br>
+for(SSL):smtp_port=425<br>
+3.auth_username='The email-id you want to host mail from'<br>
+auth_password='your password of above email-id'<br>
+###### 4.important don't forget to make the security low of your gmail account.
