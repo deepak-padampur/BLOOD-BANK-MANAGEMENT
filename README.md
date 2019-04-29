@@ -1,6 +1,6 @@
 # BLOOD-BANK-MANAGEMENT 
 THIS IS ONGOING PROJECT.
- The User interface is made using react.js , material css , javascript and html.The backend is designed by PHP and MySQL
+ The User interface is made using react.js ,apexchart.js, material css , javascript and html.The backend is designed by PHP and MySQL
 ### Lets have the glimpse of the major feature of the application
 ## 1.User Registration:
 
